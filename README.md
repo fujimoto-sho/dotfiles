@@ -6,7 +6,7 @@ dotfilesのクローン
 
 ```bash
 $ cd ~
-$ git clone git@github.com:okutani-t/dotfiles.git
+$ git clone https://github.com/fujimoto-sho/dotfiles.git
 ```
 
 権限付与
