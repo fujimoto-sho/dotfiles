@@ -1,0 +1,157 @@
+{
+  // UI を日本語化（言語パック拡張機能が必要）
+  "locale": "ja",
+
+  // フォントサイズ
+  "editor.fontSize": 12,
+  // アイコン表示できるフォント（Nerd Fonts 優先、なければ標準フォント）
+  "editor.fontFamily": "Hack Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  // 合字（->, === などが見やすくなる）
+  "editor.fontLigatures": true,
+  // 行間を広めに（読みやすさ向上）
+  "editor.lineHeight": 1.6,
+  // タブ幅を 2 スペースに
+  "editor.tabSize": 2,
+  // タブキーでスペース挿入
+  "editor.insertSpaces": true,
+  // 保存時に自動整形
+  "editor.formatOnSave": true,
+  // ペースト時に自動整形
+  "editor.formatOnPaste": true,
+  // ミニマップ非表示（画面を広く）
+  "editor.minimap.enabled": false,
+  // 括弧をカラフルに
+  "editor.bracketPairColorization.enabled": true,
+  // 括弧のペアをガイド線で表示
+  "editor.guides.bracketPairs": true,
+  // カーソルの点滅を滑らかに
+  "editor.cursorBlinking": "smooth",
+  // カーソル移動をアニメーション
+  "editor.cursorSmoothCaretAnimation": "on",
+  // スムーズスクロール
+  "editor.smoothScrolling": true,
+  // 長い行を折り返す
+  "editor.wordWrap": "on",
+  // HTML タグの開始/終了を同時編集
+  "editor.linkedEditing": true,
+  // 関数名などを上部に固定表示
+  "editor.stickyScroll.enabled": true,
+  // AI 補完を有効化
+  "editor.inlineSuggest.enabled": true,
+
+  // 自動保存を有効化
+  "files.autoSave": "afterDelay",
+  // 1秒後に自動保存
+  "files.autoSaveDelay": 1000,
+  // 保存時に行末の空白を削除
+  "files.trimTrailingWhitespace": true,
+  // ファイル末尾に改行を追加
+  "files.insertFinalNewline": true,
+  // エクスプローラーで非表示にするフォルダ
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.expo": true,
+    "**/.expo-shared": true,
+    "**/ios/Pods": true,
+    "**/android/.gradle": true,
+    "**/android/build": true
+  },
+
+  // ターミナルのフォントサイズ
+  "terminal.integrated.fontSize": 12,
+  // アイコン表示フォント（日本語フォールバック付き）
+  "terminal.integrated.fontFamily": "'Hack Nerd Font', 'Hiragino Sans'",
+  // カーソルを点滅
+  "terminal.integrated.cursorBlinking": true,
+  // カーソル形状を縦線に
+  "terminal.integrated.cursorStyle": "line",
+  // デフォルトシェルを zsh に
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  // 選択したら自動コピー
+  "terminal.integrated.copyOnSelection": true,
+
+  // ステージングなしでコミット可能に
+  "git.enableSmartCommit": true,
+  // プッシュ/プル時の確認を省略
+  "git.confirmSync": false,
+  // 自動でリモートから取得
+  "git.autofetch": true,
+  // 親フォルダのリポジトリも開く
+  "git.openRepositoryInParentFolders": "always",
+  // Git ビューをツリー表示
+  "scm.defaultViewMode": "tree",
+
+  // 検索対象から除外するフォルダ
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.expo": true,
+    "**/ios/Pods": true,
+    "**/android/.gradle": true,
+    "**/dist": true,
+    "**/build": true
+  },
+
+  // ファイル移動時に import を自動更新
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // 相対パスで import
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+
+  // 言語別フォーマッター設定（全て Prettier を使用）
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // シングルクォート使用
+  "prettier.singleQuote": true,
+  // セミコロンを付ける
+  "prettier.semi": true,
+  // 末尾カンマを付ける
+  "prettier.trailingComma": "es5",
+  // 1行の最大文字数
+  "prettier.printWidth": 100,
+
+  // ESLint を適用する言語
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // AI がファイルを自動認識
+  "cursor.general.enableShadowWorkspace": true,
+
+  // 起動時に何も開かない
+  "workbench.startupEditor": "none",
+  // プレビューモード無効（タブを固定）
+  "workbench.editor.enablePreview": false,
+  // 削除時の確認を省略
+  "explorer.confirmDelete": false,
+  // ドラッグ&ドロップの確認を省略
+  "explorer.confirmDragAndDrop": false,
+  // 信頼されていないファイルも開く
+  "security.workspace.trust.untrustedFiles": "open",
+  // テレメトリー（利用状況送信）をオフ
+  "telemetry.telemetryLevel": "off",
+  // タイプミスの指摘をオフ
+  "cSpell.enabled": false
+}

@@ -1,0 +1,102 @@
+# Starship プロンプト設定、ターミナルのプロンプトをカスタマイズ
+
+# プロンプトに表示する要素と順序（$変数名 で各モジュールを参照）
+format = """
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+$python\
+$rust\
+$golang\
+$php\
+$docker_context\
+$cmd_duration\
+$line_break\
+$character"""
+
+# プロンプトの前に空行を入れる
+add_newline = true
+
+[character]
+# コマンド成功時は緑の >
+success_symbol = "[>](bold green)"
+# コマンド失敗時は赤の >
+error_symbol = "[>](bold red)"
+
+[directory]
+# 3階層より深いパスは省略
+truncation_length = 3
+# Git リポジトリ内では、リポジトリルートからの相対パスを表示
+truncate_to_repo = true
+# シアン色で太字
+style = "bold cyan"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+# ブランチの前に表示するシンボル
+symbol = "git:"
+# 紫色で太字
+style = "bold purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+# 黄色で太字
+style = "bold yellow"
+# マージコンフリクトあり
+conflicted = "!"
+# リモートより count コミット進んでいる
+ahead = "up${count}"
+# リモートより count コミット遅れている
+behind = "down${count}"
+# 分岐している
+diverged = "up${ahead_count}down${behind_count}"
+# 未追跡ファイルあり
+untracked = "?"
+# stash あり
+stashed = "*"
+# 変更されたファイルあり（未ステージ）
+modified = "~"
+# ステージ済みの変更あり
+staged = "+"
+# ファイル名変更あり
+renamed = ">"
+# 削除されたファイルあり
+deleted = "x"
+
+[nodejs]
+symbol = "node:"
+style = "bold green"
+format = "[$symbol($version)]($style) "
+
+[python]
+symbol = "py:"
+style = "bold yellow"
+format = "[$symbol($version)]($style) "
+
+[php]
+symbol = "php:"
+style = "bold blue"
+format = "[$symbol($version)]($style) "
+
+[docker_context]
+symbol = "docker:"
+style = "bold blue"
+format = "[$symbol$context]($style) "
+# Docker 関連ファイルがある時だけ表示
+only_with_files = true
+
+[rust]
+symbol = "rs:"
+format = "[$symbol($version)]($style) "
+
+[golang]
+symbol = "go:"
+format = "[$symbol($version)]($style) "
+
+[cmd_duration]
+# 2秒以上かかったコマンドのみ表示（ミリ秒指定）
+min_time = 2000
+format = "took [$duration]($style) "
+style = "bold yellow"

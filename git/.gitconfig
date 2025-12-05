@@ -1,0 +1,43 @@
+# Git グローバル設定、全リポジトリに適用（リポジトリ固有設定は .git/config で上書き可能）
+
+[user]
+    # git config --global user.name "Your Name" でも設定可能
+    name = Your Name
+    # GitHub アカウントのメールアドレスを設定するとコミットが紐付く
+    email = your@email.com
+
+[pull]
+    # git pull 時に merge ではなく rebase（コミット履歴が直線になり見やすい）
+    rebase = true
+
+[rebase]
+    # rebase 前に未コミットの変更を自動で stash、rebase 後に自動で pop
+    autoStash = true
+
+[core]
+    # git diff/log の出力を delta でシンタックスハイライト表示
+    pager = delta
+
+[interactive]
+    # git add -p 等の対話モードでも delta を使用
+    diffFilter = delta --color-only
+
+[delta]
+    # n/N キーで変更箇所間をジャンプ
+    navigate = true
+    # 行番号を表示
+    line-numbers = true
+    # 変更前後を横並びで表示（画面幅が必要）
+    side-by-side = true
+
+[diff]
+    # コードの移動（カット&ペースト）を検出して色分け表示
+    colorMoved = default
+
+[init]
+    # git init で作成されるブランチ名（昔は master、今は main が主流）
+    defaultBranch = main
+
+[push]
+    # git push で現在のブランチと同名のリモートブランチに push（--set-upstream 不要に）
+    default = current

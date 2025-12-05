@@ -1,0 +1,11 @@
+# ローカル設定（API キー等の機密情報）
+.zshrc.local
+
+# macOS
+.DS_Store
+
+# バックアップファイル
+*.bak
+*.backup
+*.swp
+*~

@@ -1,0 +1,16 @@
+[
+  {
+    // Cmd+I で Cursor の AI エージェントモードを起動（ファイル編集可能なモード）
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    // ターミナルで Shift+Enter を押すと改行（コマンド実行せずに複数行入力）
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u001b\r"
+    },
+    "when": "terminalFocus"
+  }
+]
