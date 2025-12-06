@@ -6,7 +6,7 @@ macOS 開発環境セットアップ用 dotfiles
 
 ```bash
 # 1. クローン
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/.dotfiles
+git clone https://github.com/fujimoto-sho/dotfiles.git ~/.dotfiles
 
 # 2. 精査
 Brewfileを精査、不要なものはコメントアウト
