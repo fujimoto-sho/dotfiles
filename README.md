@@ -8,16 +8,19 @@ macOS 開発環境セットアップ用 dotfiles
 # 1. クローン
 git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/.dotfiles
 
-# 2. インストール
+# 2. 精査
+Brewfileを精査、不要なものはコメントアウト
+
+# 3. インストール
 cd ~/.dotfiles
 chmod +x install.sh
 ./install.sh
 
-# 3. SSH 設定
+# 4. SSH 設定
 chmod +x ssh/setup.sh
 ./ssh/setup.sh
 
-# 4. Git 設定
+# 5. Git 設定
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
