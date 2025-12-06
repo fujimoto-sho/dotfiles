@@ -81,9 +81,7 @@
     ]
   },
   "env": {
-    // コマンドのタイムアウト 60秒（npm install 等の長時間コマンド用）
     "BASH_DEFAULT_TIMEOUT_MS": "60000"
   },
-  // 思考プロセスの表示（false で結果のみ表示）
   "alwaysThinkingEnabled": false
 }
