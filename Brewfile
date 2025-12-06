@@ -26,7 +26,6 @@ cask "google-chrome"           # ブラウザ、DevTools でのデバッグ・Re
 cask "cursor"                  # VS Code ベースの AI エディタ、Cmd+I で AI とペアプログラミング
 cask "visual-studio-code"      # 定番エディタ、Cursor が不安定な時のバックアップ用
 cask "docker"                  # コンテナ実行環境、開発環境の統一・DB のローカル起動に使用
-cask "zoom"                    # ビデオ会議
 cask "tableplus"               # データベース GUI、PostgreSQL/MySQL/SQLite を視覚的に操作
 cask "ghostty"                 # Rust 製の高速ターミナル、GPU アクセラレーション・分割・タブ対応
 cask "raycast"                 # Spotlight 代替のランチャー、クリップボード履歴・スニペット・ウィンドウ管理
