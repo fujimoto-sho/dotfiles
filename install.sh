@@ -35,6 +35,7 @@ files_to_backup=(
   "$HOME/.gitconfig"
   "$HOME/.config/starship.toml"
   "$HOME/.config/ghostty/config"
+  "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
   "$HOME/.claude/settings.json"
   "$HOME/.claude/CLAUDE.md"
   "$HOME/.claude/commands/commit-push.md"
@@ -55,6 +56,9 @@ stow -v starship
 stow -v ghostty
 stow -v git
 stow -v claude
+
+# ghostty の設定をリンク（macOS用パス）
+ln -sf "$DOTFILES_DIR/ghostty/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 
 # Cursor の設定をリンク
 mkdir -p "$HOME/.config/cursor/User"

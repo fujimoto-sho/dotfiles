@@ -1,15 +1,15 @@
 # Ghostty ターミナル設定、Rust 製で高速・GPU アクセラレーション対応
 
 # どのアプリからでも Option+Space で呼び出せる Quick Terminal
-keybind = global:alt+space=toggle_quick_terminal
+# keybind = global:alt+space=toggle_quick_terminal
 # 画面上部からスライドダウン
-quick-terminal-position = top
+# quick-terminal-position = top
 # メインディスプレイに表示
-quick-terminal-screen = main
+# quick-terminal-screen = main
 # アニメーション時間（秒）
-quick-terminal-animation-duration = 0.2
+# quick-terminal-animation-duration = 0.2
 # フォーカスが外れたら自動で閉じる
-quick-terminal-autohide = true
+# quick-terminal-autohide = true
 
 # 新しいターミナルはホームディレクトリで開始
 working-directory = home
