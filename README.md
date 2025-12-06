@@ -43,6 +43,7 @@ git config --global user.email "your@email.com"
 - Spark
 - Xcode
 - zoom
+- Antigravity
 
 ## Karabiner-Elements 設定
 
