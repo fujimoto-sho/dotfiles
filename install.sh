@@ -17,12 +17,12 @@ if ! command -v brew &> /dev/null; then
   fi
 fi
 
-brew doctor
+brew doctor || true
 brew update
 
 # Brewfile からパッケージインストール
 echo "📦 パッケージをインストール中..."
-brew bundle --file="$DOTFILES_DIR/Brewfile"
+brew bundle --file="$DOTFILES_DIR/Brewfile" || true
 
 # fzf キーバインド設定（Ctrl+R で履歴検索、Ctrl+T でファイル検索が使えるようになる）
 echo "⌨️  fzf キーバインドを設定中..."
@@ -114,7 +114,7 @@ if command -v cursor &> /dev/null; then
   cursor --install-extension dsznajder.es7-react-js-snippets
 fi
 
-brew cleanup
+brew cleanup || true
 
 echo ""
 echo "✅ dotfiles インストール完了！"
