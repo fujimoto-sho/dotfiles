@@ -42,6 +42,7 @@ git config --global user.email "your@email.com"
 - 1Password
 - Spark
 - Xcode
+- zoom
 
 ## Karabiner-Elements 設定
 
