@@ -13,7 +13,6 @@ brew "lazygit"                 # ターミナル上の Git GUI、ステージン
 brew "starship"                # カスタマイズ可能なプロンプト、Git ブランチ・Node バージョン等を表示
 brew "zsh-completions"         # zsh の追加補完定義、brew/docker/npm 等のコマンド補完が強化される
 brew "jq"                      # JSON をコマンドラインで整形・フィルタ、curl の結果を | jq . でパース
-brew "tldr"                    # man の簡易版、tldr tar で実用的な使用例だけを表示
 brew "httpie"                  # curl の代替、http GET api.com のような直感的な構文で API 呼び出し
 brew "delta"                   # git diff を見やすく表示、シンタックスハイライト・行番号・横並び表示
 brew "watchman"                # ファイル変更を監視、React Native のホットリロードに必要
