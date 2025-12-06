@@ -242,6 +242,8 @@ alias gstp='git stash pop'
 alias grb='git rebase'
 # 対話的リベース
 alias grbi='git rebase -i'
+# git push origin HEAD（現在のブランチをプッシュ）
+alias gpoh='git push origin HEAD'
 
 # npm エイリアス
 alias ni='npm install'
