@@ -55,6 +55,9 @@ Complex Modifications:
 - コマンドキー単体で押した時に、英数/かなキーを送信
 - JIS to US
 
+## raycast 設定
+- ghosttyのhotkeyをoption+spaceに設定
+
 ## ローカル設定
 
 `~/.zshrc.local` に API キーなどを記述（git 管理外）
