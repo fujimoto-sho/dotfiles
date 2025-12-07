@@ -44,6 +44,7 @@ git config --global user.email "your@email.com"
 - Xcode
 - zoom
 - Antigravity
+- AquaVoice
 
 ## Karabiner-Elements 設定
 
