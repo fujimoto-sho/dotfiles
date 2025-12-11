@@ -30,6 +30,7 @@ cask "ghostty"                 # Rust 製の高速ターミナル、GPU アク�
 cask "raycast"                 # Spotlight 代替のランチャー、クリップボード履歴・スニペット・ウィンドウ管理
 cask "karabiner-elements"      # キーボードカスタマイズ、英数/かな→Cmd、Cmd 単体で英数/かな切替
 cask "rectangle"               # ウィンドウ管理、Ctrl+Option+矢印 で左半分・右半分等にリサイズ
+cast "android-studio"          # androidエミュレータ
 
 # フォント（Nerd Fonts = アイコン内蔵フォント、eza/starship でアイコン表示に必要）
 cask "font-hack-nerd-font"     # プログラミング用等幅フォント Hack に Nerd Fonts アイコンを追加
