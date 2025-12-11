@@ -336,3 +336,6 @@ fi
 
 # ローカルにインストールしたコマンドを優先
 export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/fujisho/.antigravity/antigravity/bin:$PATH"
