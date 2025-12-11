@@ -74,6 +74,7 @@ echo "🔧 mise でランタイムを設定中..."
 if command -v mise &> /dev/null; then
   mise use --global node@lts
   mise use --global python@3.13
+  mise use --global java@17
 fi
 
 # Claude Code インストール
