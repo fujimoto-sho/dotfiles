@@ -339,3 +339,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/fujisho/.antigravity/antigravity/bin:$PATH"
+
+# Android Studio JDK
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
