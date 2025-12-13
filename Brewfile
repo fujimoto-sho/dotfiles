@@ -29,7 +29,6 @@ cask "tableplus"               # データベース GUI、PostgreSQL/MySQL/SQLit
 cask "ghostty"                 # Rust 製の高速ターミナル、GPU アクセラレーション・分割・タブ対応
 cask "raycast"                 # Spotlight 代替のランチャー、クリップボード履歴・スニペット・ウィンドウ管理
 cask "karabiner-elements"      # キーボードカスタマイズ、英数/かな→Cmd、Cmd 単体で英数/かな切替
-cask "rectangle"               # ウィンドウ管理、Ctrl+Option+矢印 で左半分・右半分等にリサイズ
 cast "android-studio"          # androidエミュレータ
 
 # フォント（Nerd Fonts = アイコン内蔵フォント、eza/starship でアイコン表示に必要）

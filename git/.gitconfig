@@ -2,9 +2,9 @@
 
 [user]
     # git config --global user.name "Your Name" でも設定可能
-    name = Your Name
+	name = fujimoto-sho
     # GitHub アカウントのメールアドレスを設定するとコミットが紐付く
-    email = your@email.com
+	email = fujisho344@gmail.com
 
 [pull]
     # git pull 時に merge ではなく rebase（コミット履歴が直線になり見やすい）

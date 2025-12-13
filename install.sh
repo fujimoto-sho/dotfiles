@@ -105,6 +105,9 @@ if command -v cursor &> /dev/null; then
   cursor --install-extension dsznajder.es7-react-js-snippets
 fi
 
+# raycastの実行権限
+chmod +x ~/.dotfiles/raycast/script-commands/open-url-in-chrome.sh
+
 brew cleanup || true
 
 echo ""
