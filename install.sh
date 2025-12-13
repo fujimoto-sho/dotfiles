@@ -38,7 +38,7 @@ files_to_backup=(
   "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
   "$HOME/.claude/settings.json"
   "$HOME/.claude/CLAUDE.md"
-  "$HOME/.claude/commands/commit-push.md"
+  "$HOME/.claude/commands"
 )
 
 for file in "${files_to_backup[@]}"; do
