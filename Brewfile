@@ -19,6 +19,7 @@ brew "watchman"                # ファイル変更を監視、React Native の�
 brew "cocoapods"               # iOS の依存関係管理、pod install で Xcode プロジェクトにライブラリ追加
 brew "terminal-notifier"       # macOS 通知をコマンドから送信、長時間タスク完了時の通知に使用
 brew "go"                      # Go 言語、高速なコンパイル・シンプルな構文・並行処理が得意
+brew "fastlane"                # iOS/Androidアプリのビルド・署名・配布を自動化するツール
 
 # GUI アプリ
 cask "google-chrome"           # ブラウザ、DevTools でのデバッグ・React DevTools 拡張に使用
