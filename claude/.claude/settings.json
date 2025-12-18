@@ -1,7 +1,9 @@
 {
-  "defaultMode": "acceptEdits",
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "60000"
+  },
   "permissions": {
-     "deny": [
+    "deny": [
       "Bash(sudo:*)",
       "Bash(rm -rf:*)",
       "Read(.env*)",
@@ -37,8 +39,6 @@
       "Bash(npm publish:*)"
     ]
   },
-  "env": {
-    "BASH_DEFAULT_TIMEOUT_MS": "60000"
-  },
-  "alwaysThinkingEnabled": true
+  "alwaysThinkingEnabled": true,
+  "defaultMode": "acceptEdits"
 }
