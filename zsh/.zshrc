@@ -285,7 +285,7 @@ function laravelclear() {
 }
 
 # Claude Code を確認なしで実行（ローカル開発用、本番では使わない）
-alias cc='mise x node@20 -- claude --dangerously-skip-permissions'
+alias cc='claude --dangerously-skip-permissions'
 
 # ディレクトリを作成して移動
 function mkcd() {
@@ -351,3 +351,7 @@ export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # bun completions
 [ -s "/Users/fujisho/.bun/_bun" ] && source "/Users/fujisho/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
