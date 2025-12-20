@@ -39,6 +39,7 @@ files_to_backup=(
   "$HOME/.claude/settings.json"
   "$HOME/.claude/CLAUDE.md"
   "$HOME/.claude/commands"
+  "$HOME/.gemini/GEMINI.md"
 )
 
 for file in "${files_to_backup[@]}"; do
@@ -56,6 +57,7 @@ stow -v starship
 stow -v ghostty
 stow -v git
 stow -v claude
+stow -v gemini
 
 # ghostty の設定をリンク（macOS用パス）
 ln -sf "$DOTFILES_DIR/ghostty/.config/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
