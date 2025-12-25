@@ -30,7 +30,8 @@ cask "tableplus"               # データベース GUI、PostgreSQL/MySQL/SQLit
 cask "ghostty"                 # Rust 製の高速ターミナル、GPU アクセラレーション・分割・タブ対応
 cask "raycast"                 # Spotlight 代替のランチャー、クリップボード履歴・スニペット・ウィンドウ管理
 cask "karabiner-elements"      # キーボードカスタマイズ、英数/かな→Cmd、Cmd 単体で英数/かな切替
-cast "android-studio"          # androidエミュレータ
+cask "obsidian"                # テキスト編集
+cask "android-studio"          # androidエミュレータ
 
 # フォント（Nerd Fonts = アイコン内蔵フォント、eza/starship でアイコン表示に必要）
 cask "font-hack-nerd-font"     # プログラミング用等幅フォント Hack に Nerd Fonts アイコンを追加

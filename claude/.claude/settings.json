@@ -40,5 +40,8 @@
     ]
   },
   "alwaysThinkingEnabled": true,
-  "defaultMode": "acceptEdits"
+  "defaultMode": "acceptEdits",
+  "enabledPlugins": {
+    "example-skills@anthropic-agent-skills": true
+  }
 }

@@ -87,6 +87,13 @@ else
   echo "⚠️  npm が見つかりません。mise で Node.js をインストール後に再実行してください"
 fi
 
+# Claude Code プラグインインストール
+echo "🔌 Claude Code プラグインをインストール中..."
+if command -v claude &> /dev/null; then
+  claude mcp add-from-claude-app || true
+  claude /plugin install example-skills || true
+fi
+
 # macOS 設定を適用
 echo "🍎 macOS 設定を適用中..."
 source "$DOTFILES_DIR/macos.sh"
