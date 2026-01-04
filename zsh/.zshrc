@@ -5,6 +5,9 @@ export LANG=ja_JP.UTF-8
 # git commit 等でエディタが開くときに vim を使用
 export EDITOR=vim
 
+# ローカルにインストールしたコマンドを優先
+export PATH="$HOME/.local/bin:$PATH"
+
 # Homebrew パス（Apple Silicon は /opt/homebrew、Intel は /usr/local）
 if [[ -f /opt/homebrew/bin/brew ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -333,9 +336,6 @@ if [[ -f ~/.zshrc.local ]]; then
 fi
 
 # vim:set ft=zsh:
-
-# ローカルにインストールしたコマンドを優先
-export PATH="$HOME/.local/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/fujisho/.antigravity/antigravity/bin:$PATH"
