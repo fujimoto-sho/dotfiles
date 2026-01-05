@@ -18,7 +18,7 @@ window-inherit-working-directory = false
 
 # 日本語対応 + Nerd Fonts アイコン付きフォント
 font-family = HackGen Console NF
-font-size = 14
+font-size = 13
 
 # 背景透明度（0.0〜1.0、0.95 でほんのり透ける）
 background-opacity = 0.95
