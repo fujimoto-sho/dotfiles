@@ -37,3 +37,4 @@ cask "android-studio"          # androidエミュレータ
 # フォント（Nerd Fonts = アイコン内蔵フォント、eza/starship でアイコン表示に必要）
 cask "font-hack-nerd-font"     # プログラミング用等幅フォント Hack に Nerd Fonts アイコンを追加
 cask "font-hackgen-nerd"       # 日本語対応の Hack、半角:全角=1:2 で綺麗に揃う
+cask "chatgpt-atlas"           # ChatGPT の Atlas 拡張
