@@ -9,3 +9,6 @@
 *.backup
 *.swp
 *~
+
+# cache
+__pycache__
