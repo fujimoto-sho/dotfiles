@@ -47,3 +47,4 @@
 
 - ✅ types:generate / format / type-check / lint / test / test:e2e がすべて成功した場合のみコミット可能
 - ❌ `git push` は実行しない（プッシュ禁止）
+- 自動フォーマット以外でのコード変更は**絶対に禁止**
